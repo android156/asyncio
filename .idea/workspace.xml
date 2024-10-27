@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bdb538b-55b2-48ec-9de3-f6a71578b169" name="Changes" comment="asyncio learning tasks">
-      <change afterPath="$PROJECT_DIR$/task22_get_running_loop.py" afterDir="false" />
+    <list default="true" id="3bdb538b-55b2-48ec-9de3-f6a71578b169" name="Changes" comment="new tasks added">
+      <change afterPath="$PROJECT_DIR$/task37.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task22.py" beforeDir="false" afterPath="$PROJECT_DIR$/task23_old_code_asyncio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "Python.task20_loop_n_threadings.executor": "Run",
     "Python.task22.executor": "Run",
     "Python.task3.executor": "Run",
+    "Python.task37.executor": "Run",
     "Python.task4.executor": "Run",
     "Python.task5.executor": "Run",
     "Python.task6.executor": "Run",
@@ -64,30 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.task22_get_running_loop">
-    <configuration name="task17_wait_first_exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyAsyncio" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\n_deg\PycharmProjects\pythonProject\MyAsyncio\task17_wait_first_exception.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task37">
     <configuration name="task18_as_completed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyAsyncio" />
       <option name="ENV_FILES" value="" />
@@ -180,13 +157,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task37" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyAsyncio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task37.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task37" />
         <item itemvalue="Python.task22_get_running_loop" />
         <item itemvalue="Python.task20_loop_n_threadings" />
         <item itemvalue="Python.task19" />
         <item itemvalue="Python.task18_as_completed" />
-        <item itemvalue="Python.task17_wait_first_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +212,9 @@
       <workItem from="1726231154601" duration="6806000" />
       <workItem from="1726586616751" duration="2221000" />
       <workItem from="1726641787797" duration="19555000" />
-      <workItem from="1727968327414" duration="3831000" />
+      <workItem from="1727968327414" duration="3892000" />
+      <workItem from="1729257439068" duration="314000" />
+      <workItem from="1729863514291" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="asyncio learning tasks">
       <option name="closed" value="true" />
@@ -222,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727968802940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new tasks added">
+      <option name="closed" value="true" />
+      <created>1728400235946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728400235947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +240,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asyncio learning tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="asyncio learning tasks" />
+    <MESSAGE value="new tasks added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new tasks added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyAsyncio$task18.coverage" NAME="task18 Coverage Results" MODIFIED="1726665528326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -239,6 +250,7 @@
     <SUITE FILE_PATH="coverage/MyAsyncio$MyAwait.coverage" NAME="MyAwait Coverage Results" MODIFIED="1725360485426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyAsyncio$task5.coverage" NAME="task5 Coverage Results" MODIFIED="1725539852128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyAsyncio$task22.coverage" NAME="task22 Coverage Results" MODIFIED="1727970206996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyAsyncio$task37.coverage" NAME="task37 Coverage Results" MODIFIED="1729864553089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyAsyncio$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1725363297548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyAsyncio$task10.coverage" NAME="task10 Coverage Results" MODIFIED="1725868106128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyAsyncio$task13.coverage" NAME="task13 Coverage Results" MODIFIED="1726242501264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
