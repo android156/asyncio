@@ -277,14 +277,14 @@ async def check_message(mes):
     elif task.get_name() == 'black_list_user':
         print('black_list_user: Пользователь забанен, сообщение скрыто')
     elif task.get_name() == 'admin':
-        print(f'admin: {mes['message']}')
+        print(f'admin: {mes["message"]}')
     elif task.get_name() == 'student':
         if check_text(mes['message']):
             print(f'student: В сообщении есть запрещённое слово, сообщение скрыто')
         else:
-            print(f'student: {mes['message']}')
+            print(f'student: {mes["message"]}')
     else:
-        print(f'moderator: {check_text(mes['message']) if check_text(mes['message']) else mes["message"]}')
+        print(f'moderator: {check_text(mes["message"]) if check_text(mes["message"]) else mes["message"]}')
 
 
 async def main():
